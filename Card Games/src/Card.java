@@ -35,19 +35,19 @@ public class Card
 
 		public static void main(String[] args)
 			{
-				deck.add(new Card("1", "Heart", 1));
-				deck.add(new Card("2", "Heart", 2));
-				deck.add(new Card("3", "Heart", 3));
-				deck.add(new Card("4", "Heart", 4));
-				deck.add(new Card("5", "Heart", 5));
-				deck.add(new Card("6", "Heart", 6));
-				deck.add(new Card("7", "Heart", 7));
-				deck.add(new Card("8", "Heart", 8));
-				deck.add(new Card("9", "Heart", 9));
-				deck.add(new Card("Jack", "Heart", 10));
-				deck.add(new Card("Queen", "Heart", 10));
-				deck.add(new Card("King", "Heart", 10));
-				deck.add(new Card("Ace", "Heart", 11));
+				deck.add(new Card("1", "Hearts", 1));
+				deck.add(new Card("2", "Hearts", 2));
+				deck.add(new Card("3", "Hearts", 3));
+				deck.add(new Card("4", "Hearts", 4));
+				deck.add(new Card("5", "Hearts", 5));
+				deck.add(new Card("6", "Hearts", 6));
+				deck.add(new Card("7", "Hearts", 7));
+				deck.add(new Card("8", "Hearts", 8));
+				deck.add(new Card("9", "Hearts", 9));
+				deck.add(new Card("Jack", "Hearts", 10));
+				deck.add(new Card("Queen", "Hearts", 10));
+				deck.add(new Card("King", "Hearts", 10));
+				deck.add(new Card("Ace", "Hearts", 11));
 				deck.add(new Card("1", "Spades", 1));
 				deck.add(new Card("2", "Spades", 2));
 				deck.add(new Card("3", "Spades", 3));
