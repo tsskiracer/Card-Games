@@ -31,7 +31,7 @@ public class Players {
 			this.bet = bet;
 		}
 
-	public static void playerMoney()
+	public static void playerHand()
 	{
 		Scanner userBet=new Scanner(System.in);
 		int bet=userBet.nextInt();
