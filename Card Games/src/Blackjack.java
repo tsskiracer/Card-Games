@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class Players {
+public class Blackjack {
 	private int bank;
 	private int bet;
 	static ArrayList<Card> hand = new ArrayList<Card>();
 	
-	public Players(int b, int bt)
+	public Blackjack(int b, int bt)
 	{
 	bank=b;
 	bet=bt;
@@ -33,10 +33,13 @@ public class Players {
 
 	public static void playerHand()
 	{
+		
 		Scanner userBet=new Scanner(System.in);
 		int bet=userBet.nextInt();
-		hand.add(new Card(deck[]));
 		
+		
+				
+			
 	}
 
 	public static void main(String[] args) {
