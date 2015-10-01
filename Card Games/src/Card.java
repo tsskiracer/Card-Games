@@ -13,25 +13,42 @@ public class Card
 			rank=r;
 		}
 		
-		public String getcType()
+		
+		public String getSuit()
 			{
 				return suit;
 			}
 
-		public void setcType(String cType)
+
+		public void setSuit(String suit)
 			{
-				this.suit = cType;
+				this.suit = suit;
 			}
 
-		public int getcNumber()
+
+		public int getValue()
 			{
 				return value;
 			}
 
-		public void setcNumber(int cNumber)
+
+		public void setValue(int value)
 			{
-				this.value = cNumber;
+				this.value = value;
 			}
+
+
+		public String getRank()
+			{
+				return rank;
+			}
+
+
+		public void setRank(String rank)
+			{
+				this.rank = rank;
+			}
+
 
 		public static void main(String[] args)
 			{
